@@ -1,0 +1,42 @@
+<!-- 1. შექმენით სარეგისტრაციო ფორმა სადაც გექნებათ სახელი, გვარი, ასაკი, ტელეფონი, იმეილი, ასევე გამოიყენებთ name-ს და value-ს.
+2. შექმენით სქესის ასარჩევი drop down menu, რამდენიმე ვარიანტით, ერთ-ერთ უნდა იყოს selected.
+3. კომენტარების მეშვეობით ახსენით რა არის name და რა არის value. -->
+
+<!-- 1 -->
+    <title>სარეგისტრაციო ფორმა</title>
+    <h1>სარეგისტრაციო ფორმა</h1>
+    <form action="/submit" method="post">
+        <label for="firstName">სახელი:</label>
+        <input type="text" id="firstName" name="firstName" value="10" required>
+        <br><br>
+        
+        <label for="lastName">გვარი:</label>
+        <input type="text" id="lastName" name="lastName" value="" required>
+        <br><br>
+        
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" name="age" value="" required>
+        <br><br>
+        
+        <label for="phone">ტელეფონი:</label>
+        <input type="tel" id="phone" name="phone" value="" required>
+        <br><br>
+        
+        <label for="email">იმეილი:</label>
+        <input type="email" id="email" name="email" value="" required>
+        <br><br>
+        
+        <input type="submit" value="გაგზავნა">
+
+<!-- 2 -->
+
+<select id="gender">
+<option value="">male</option>
+<option value="">fimale</option>
+</select>
+
+<!-- 3 -->
+
+<!-- name არის სახელი ხოლო value არის მნიშვნელობა -->
+
+
